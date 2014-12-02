@@ -48,6 +48,8 @@ $(function(){
     $( "#wrapper" ).fadeIn( "slow", function() {});
   }
 
+  console.log(window.location.pathname);
+
   if (window.location.pathname !== '/fin.html'){
     init();
   } else {
